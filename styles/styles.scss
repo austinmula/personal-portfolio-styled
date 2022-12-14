@@ -72,20 +72,17 @@ figure {
 }
 
 .hero {
-    // background: rgb(178, 172, 172);
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
     &__content {
-        // background: rgb(129, 122, 122);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        // gap: 1.5rem;
         h1{
             color: $headings-color;
             font-size: 32px;
